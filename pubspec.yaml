@@ -1,0 +1,49 @@
+name: proto
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  carousel_slider: ^5.1.1
+  flutter:
+    sdk: flutter
+  get: ^4.7.3
+  cupertino_icons: ^1.0.8
+  flutter_rating_bar: ^4.0.1
+  image_picker: ^1.2.1
+  google_maps_flutter: ^2.14.0
+  custom_map_markers: ^0.0.2+1
+  flutter_easyloading: ^3.0.5
+  shared_preferences: ^2.1.2
+  intl: ^0.19.0
+  flutter_timezone: ^5.0.1
+  geolocator: ^14.0.2
+  maplibre_gl: ^0.25.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Noto Kufi Arabic
+      fonts:
+        - asset: assets/fonts/arabic/NotoKufiArabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/arabic/NotoKufiArabic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/arabic/NotoKufiArabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/arabic/NotoKufiArabic-ExtraBold.ttf
+          weight: 800
+
